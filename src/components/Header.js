@@ -12,10 +12,10 @@ const Header = () => {
 const styles = StyleSheet.create({
   headerContainer: {
     display: "flex",
-    marginTop: 55,
+    // marginTop: 55,
     alignItems: "center",
     backgroundColor: "#292972",
-    height: 65,
+    height: 85,
     justifyContent: "center"
   },
   header: {

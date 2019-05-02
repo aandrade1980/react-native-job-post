@@ -20,9 +20,9 @@ export default class JobPostList extends Component {
     return this.state.jobs.map((job) => {
       return (
         <View key={job._id}>
-          <Text>{job.title}</Text>
+          <Text style={{ textAlign: 'center', fontSize: 18 }}>{job.title}</Text>
           <Image
-            style={{ width: 150, height: 150 }} 
+            style={{ width: 250, height: 250 }} 
             source={{ uri: `${JOBS_API_URL}/${job.imgUrl}` }}
           />
         </View>
